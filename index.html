@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-rows: 100px 100px;
+            grid-template-columns: 'auto auto auto';
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        #item1{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>The grid-area Property</h1>
+
+    <p>You can use the <em>grid-area</em> property to name grid items.</p>
+
+    <p>You can refer to the name when you set up the grid layout, by using the <em>grid-template-areas</em> property on
+        the grid container.</p>
+
+    <p>Item1, is called "myArea" and will take up the place of all five columns:</p>
+
+    <div class="grid-container">
+        <div class=" item item2 item 3 " id="item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+</body>
+
+</html>

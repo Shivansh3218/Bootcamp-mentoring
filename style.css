@@ -1,0 +1,25 @@
+
+.contanier{
+    width:50vw;
+    height: 800px;
+    background-color: #01ffcc;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 20px;
+    display: flex;
+}
+.children{
+    width: 20rem;
+    height: 2rem;
+    color:  white;
+    background-color: rgb(0, 0, 242);
+    margin: 2rem;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .contanier{
+        width: 300px;
+        flex-direction: column;
+
+    }
+  } */
